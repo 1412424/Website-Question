@@ -1242,3 +1242,12 @@ md-tabs md-content.md-default-theme {
 md-icon.md-default-theme.md-hue-3 {
   outline: none;
 }
+
+.modal.fade.ng-isolate-scope.in {
+  top: unset;
+  left: unset;
+}
+.modal.fade.ng-isolate-scope.in .modal-dialog{
+  width: 330px;
+  height: 417px;
+}
